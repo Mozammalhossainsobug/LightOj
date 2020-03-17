@@ -57,6 +57,8 @@ int main()
     cin>>test;
     while(test--)
     {
+        ios_base::sync_with_stdio(false);
+        cin.tie(NULL);
         cout<<"Case "<<k++<<":"<<endl;
         cin>>str;
         n = str.length();
@@ -70,6 +72,8 @@ int main()
         cin>>q;
         while(q--)
         {
+            ios_base::sync_with_stdio(false);
+            cin.tie(NULL);
             cin>>ch;
             if(ch=='I')
             {
@@ -84,7 +88,7 @@ int main()
                     cout<<str[index-1]<<endl;
                 else
                 {
-                    if(str[index-1]==0)
+                    if(str[index-1]=='0')
                         cout<<1<<endl;
                     else
                         cout<<0<<endl;

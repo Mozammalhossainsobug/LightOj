@@ -26,10 +26,10 @@ Case 1: 2 = 2 (1)
 Case 2: 3 = 2 (1) * 3 (1)
 Case 3: 6 = 2 (4) * 3 (2) * 5 (1)
 ```
-## Notes
+### Notes
 The output for the 3rd case is (if we replace spaces with .s) Case.3:.6.=.2.(4).*.3.(2).*.5.(1)
 
-### solution
+## Solution in c++
 ```
                     /**************************************************************************************
                     *                                       Coder :                                       *

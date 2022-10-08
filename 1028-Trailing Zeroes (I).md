@@ -30,7 +30,7 @@ Case 3: 1
 # Notes
 For 9, the possible bases are: 3 and 9. Since in base 3; 9 is represented as 100, and in base 9; 9 is represented as 10. In both bases, 9 contains a trailing zero.
 
-# Solution in C
+# Solution in C++
 ```
 /**************************************************************************************
 *                                       Coder :                                       *
